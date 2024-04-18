@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: 'font';
+	src: url('../font/font.ttf');
+	font-family: 'font';
+	font-family: 'star';
+	src: url('../font/star.ttf');
+	font-family: 'star';
+}
+nav {
+	width: 100vw;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	width: 118px;
+	height: 60px;
+	justify-content: space-around;
+}
+.link{
+	width: 1100px;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	font-family: font;
+}
+.link > button {
+	width: 110px;
+	height: 30px;
+	border-radius: 5px;
+	border: 2px solid #444;
+	background: transparent;
+}
+.content {
+	width: 100vw;
+	height: 400px;
+	border: 2px solid red;
+}
+.content > h2 {
+	width: 250px;
+	height: 100px;
+	border: 2px solid red;
+	font-family: star;
+}
